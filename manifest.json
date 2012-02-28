@@ -1,0 +1,16 @@
+{
+    "BundleType": "Application",
+    "AppIcon": {
+        "36x18": "tutorial.png"
+    },
+    "AppName": {
+        "en": "Voicr"
+    },
+    "SupportedLanguages": [
+        "en"
+    ],
+	"RequiredPermissions": [
+	        "http://lenny.a13x.net",
+			"http://static.twilio.com"
+	]
+}

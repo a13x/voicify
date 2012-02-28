@@ -1,0 +1,112 @@
+@font-face {
+	font-family: 'Dylan White';
+	src: url('dylanw.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Dylan Black';
+	src: url('dylanb.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+#voicr {
+  width: 640px;
+  margin: 0 auto 40px;
+  background: white;
+  padding: 20px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0 5px 6px 0;
+  color: #333333;
+}
+
+h1, h2, h3 {
+	font-family: "Dylan White";
+	color: #333333;
+}
+
+body {
+  font-family: "Dylan White", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.4em;
+  color: #333333;
+  background-image: url(271.jpg);
+  background-repeat: repeat;
+  height: 100%;
+}
+
+#voicr h1 {
+	font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px 0 30px 0;
+    line-height: 1;
+}
+
+#voicr h2 {
+	font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px 0 30px 0;
+    line-height: 1;
+}
+
+#voicr h3 {
+	font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px 0 30px 0;
+    line-height: 1;
+}
+
+#voicr li {
+	list-style: none;
+}
+
+
+#add-call {
+	position: relative;
+}
+
+#add-call input {
+	width: 200px;
+	font-size: 24px;
+	font-family: inherit;
+    line-height: 1.4em;
+    outline: none;
+    padding: 6px;
+	margin-left: 20px;
+    border: 1px solid #999999;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0 1px 2px 0 inset;
+}
+
+.button {
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ffffff), color-stop(1, #f6f6f6) );
+	background-color:#ffffff;
+	-webkit-border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	color:#666666;
+	font-family:inherit;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #ffffff;
+}.button:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #f6f6f6), color-stop(1, #ffffff) );
+	background-color:#f6f6f6;
+}.button:active {
+	position:relative;
+	top:1px;
+}
+
+
+#info {
+  width: 520px;
+  margin: 10px auto;
+  color: white;
+  text-align: center;
+}

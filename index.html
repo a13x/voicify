@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Voicr</title>
+		<link rel="stylesheet" href="sp://import/css/adam.css">
+	    <link rel="stylesheet" href="voicr.css">
+		<script type="text/javascript" charset="utf-8" src="jquery.min.js"></script>
+		<script type="text/javascript" charset="utf-8" src="underscore.js"></script>
+		<script type="text/javascript" charset="utf-8" src="mustache.js"></script>		
+		<script type="text/javascript" charset="utf-8" src="json2.js"></script>
+		<script type="text/javascript" charset="utf-8" src="backbone.js"></script>
+		<script type="text/javascript" charset="utf-8" src="backbone-localstorage.js"></script>
+	</head>
+
+	<body onload="sp = getSpotifyApi(1); voicr = sp.require('voicr'); voicr.init();">
+		<div id="voicr">
+			<h1>Voicify!</h1>
+			<h2>Everyone needs to hear!</h2>
+			<h3>Who should I call?</h3>
+			<div id="add-call">
+				<input id="name" placeholder="Name?" type="text"/>
+				<input id="number" placeholder="+1234567890" type="tel"/>
+				<button id="add" class="button" type="button">Add!</button>
+			</div>
+			<h3>Your buddies that will be voicified:</h3>
+			<div id="calls"></div>
+		</div>
+		<div id="info">What's playin'</div>
+				
+	</body>
+</html>

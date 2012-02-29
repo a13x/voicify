@@ -3,7 +3,7 @@ exports.init = init;
 var sp = getSpotifyApi(1);
 var models = sp.require('sp://import/scripts/api/models');
 var player = models.player;
-var voice_url = 'http://lenny.a13x.net/tw/voice';
+var voice_url = 'http://your_server/voice_url';
 
 /*
 	Models and Collections

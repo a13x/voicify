@@ -12,6 +12,7 @@ TWTOKEN = ""
 
 URL = "http://your_server/voice_url?{0}"
 MSG = "Hey {0}, Alex wanted to let you know that he's listening to {1} and you should listen to it, too!"
+PHONENR = "+1234567890"
 
 class Main(tornado.web.RequestHandler):
 	"""
@@ -45,7 +46,7 @@ class Main(tornado.web.RequestHandler):
 			makes a call in next IOLoop
 		"""
 		url = URL.format(urllib.urlencode(dict(song=song, name=name)))
-		self.application.tw.calls.create(to=number, from_="+46769102204", url=url, method="GET")
+		self.application.tw.calls.create(to=number, from_=PHONENR, url=url, method="GET")
 
 app = tornado.web.Application([
 	(r"/tw/voice", Main),
